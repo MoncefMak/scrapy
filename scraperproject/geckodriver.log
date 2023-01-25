@@ -1,0 +1,19 @@
+1674558580256	geckodriver	INFO	Listening on 127.0.0.1:44741
+1674558580847	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "38849" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerQEKda"
+Gtk-Message: 12:09:40.909: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1674558581684	Marionette	INFO	Marionette enabled
+1674558581689	Marionette	INFO	Listening on port 36119
+Read port: 36119
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:38849
+1674558581903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerQEKda/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38849/devtools/browser/fd8aff61-fb32-43bb-9e42-3924ddda0e5d
+[2023-01-24T11:09:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-24T11:09:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-24T11:09:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+[2023-01-24T11:09:46Z ERROR mp4parse] Found 2 nul bytes in "\0\0"
+1674558978505	Marionette	INFO	Stopped listening on port 36119
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
