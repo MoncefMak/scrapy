@@ -1,4 +1,5 @@
 import scrapy
+from ..items import ScraperJumiaDz
 
 
 class JumiaSpider(scrapy.Spider):
@@ -17,8 +18,7 @@ class JumiaSpider(scrapy.Spider):
                     yield response.follow(url=f'https://www.jumia.dz/stockage/page={i}')
 
         for result in response.css('article.prd._fb.col.c-prd'):
-            items = {
-                'produit': result.css('h3.name::text').get(),
-                'prix' : result.css('div.prc::text').get(),
-            }
+            items = ScraperJumiaDz()
+            items['produit'] = result.css('h3.name::text').get()
+            items['prix'] = result.css('div.prc::text').get(),
             yield items

@@ -6,7 +6,7 @@
 import scrapy
 
 
-class ScraperprojectItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class ScraperJumiaDz(scrapy.Item):
+    prix = scrapy.Field()
+    produit = scrapy.Field()
+
